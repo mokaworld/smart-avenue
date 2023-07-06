@@ -37,4 +37,8 @@ body {
 .upper-header .lang-site {
   display: flex;
 }
+.upper-header .lang .choose-lang, .upper-header .lang .choose-country {
+  margin-left: 10px;
+}
+
 /* END UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
