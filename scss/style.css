@@ -1,0 +1,13 @@
+/* START MAIN RULES */
+* {
+  box-sizing: border-box;
+}
+
+/*END  MAIN RULES */
+body {
+  font-family: "Cairo", sans-serif;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Kablammo", cursive;
+  font-family: "Lilita One", cursive;
+  font-family: "Tajawal", sans-serif;
+}/*# sourceMappingURL=style.css.map */
