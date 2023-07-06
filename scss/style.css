@@ -105,4 +105,9 @@ body {
   border: 1px solid var(--main-color);
   padding: 10px 30px 10px 0;
 }
+.before-nav .fa-cart-shopping {
+  font-size: 32px;
+  color: var(--main-color);
+}
+
 /* END UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
