@@ -98,7 +98,7 @@ body {
   flex-direction: row;
 }
 .before-nav img {
-  max-width: 100%;
+  max-width: 50%;
 }
 .before-nav .search-box {
   width: 100%;
