@@ -35,6 +35,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+.upper-header .sign-in .sign-in-btn {
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
 .upper-header .lang-site {
   display: flex;
 }
