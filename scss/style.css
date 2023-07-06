@@ -21,8 +21,8 @@ body {
 /* START UPPER HEADER SECTION */
 .upper-header {
   background-color: var(--main-background);
-  padding: 10px 0 20px 0;
-  font-size: 14px;
+  padding: 8px 0;
+  font-size: 12px;
 }
 .upper-header .container {
   display: flex;
