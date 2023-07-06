@@ -95,6 +95,7 @@ body {
 .before-nav .search-box {
   width: 100%;
   border: 1px solid var(--main-color);
+  padding: 10px 30px 10px 0;
 }
 .before-nav .col-lg-3,
 .before-nav .col-lg-6 {
