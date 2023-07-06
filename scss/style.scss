@@ -89,5 +89,8 @@ body {
 .before-nav{
  background: var(--main-background);
  padding: 15px 0;
+ img{
+  max-width: 100%;
+ }
 }
 /* END UPPER HEADER SECTION */
