@@ -25,5 +25,8 @@ body {
   align-content: center;
   justify-content: space-between;
 }
+.upper-header .lang-site {
+  display: flex;
+}
 
 /* START UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
