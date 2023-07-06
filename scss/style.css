@@ -92,5 +92,9 @@ body {
 .before-nav img {
   max-width: 100%;
 }
+.before-nav .search-box {
+  width: 100%;
+  border: 1px solid var(--main-color);
+}
 
 /* END UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
