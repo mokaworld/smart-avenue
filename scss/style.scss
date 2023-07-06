@@ -1,5 +1,6 @@
 /*  ROOT */
 :root{
+  --main-color:#D7B97D;
   --main-background :#FFFFFF;
 }
 /* START MAIN RULES */
@@ -36,7 +37,10 @@
       }
       .lang{
         .choose-lang,.choose-country{
-          margin-left: 10px;
+
+          background-color: transparent;
+          border:1px solid var(--main-color) ;
+          color: var(--main-color);
         }
       }
     }

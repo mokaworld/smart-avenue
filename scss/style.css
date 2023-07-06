@@ -1,5 +1,6 @@
 /*  ROOT */
 :root {
+  --main-color:#D7B97D;
   --main-background:#FFFFFF;
 }
 
@@ -38,7 +39,9 @@ body {
   display: flex;
 }
 .upper-header .lang .choose-lang, .upper-header .lang .choose-country {
-  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
 }
 
 /* END UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
