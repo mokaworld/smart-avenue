@@ -2,6 +2,7 @@
 :root {
   --main-color: #d7b97d;
   --main-background: #ffffff;
+  --main-border-rads: 3px;
 }
 /* START MAIN RULES */
 * {
@@ -37,11 +38,11 @@ body {
       border: 1px solid var(--main-color);
       color: var(--main-color);
       padding: 10px;
-      border-radius: 3px;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
-      -o-border-radius: 3px;
+      border-radius: var(--main-border-rads);
+      -webkit-border-radius: var(--main-border-rads);
+      -moz-border-radius: var(--main-border-rads);
+      -ms-border-radius: var(--main-border-rads);
+      -o-border-radius: var(--main-border-rads);
       &:hover,
       &:focus{
        background-color: #343a40;
