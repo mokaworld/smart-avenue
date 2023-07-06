@@ -46,7 +46,7 @@ body {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
-.upper-header .sign-in i {
+.upper-header .sign-in .fa-circle-user {
   margin-left: 5px;
 }
 .upper-header .lang-site {
@@ -80,7 +80,7 @@ body {
 .lang .choose-lang i {
   margin-right: 5px;
 }
-.lang i {
+.lang .fa-globe {
   margin-right: 5px;
 }
 
