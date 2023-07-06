@@ -41,6 +41,10 @@ body {
       -moz-border-radius: 3px;
       -ms-border-radius: 3px;
       -o-border-radius: 3px;
+      &:hover,
+      &:focus{
+       background-color: #343a40;
+      }
     }
     .fa-circle-user {
       margin-left: 5px;
