@@ -89,14 +89,6 @@ body {
   background: var(--main-background);
   padding: 15px 0;
 }
-.before-nav img {
-  max-width: 100%;
-}
-.before-nav .search-box {
-  width: 100%;
-  border: 1px solid var(--main-color);
-  padding: 10px 30px 10px 0;
-}
 .before-nav .col-lg-3,
 .before-nav .col-lg-6 {
   display: flex;
@@ -105,5 +97,12 @@ body {
   align-content: center;
   flex-direction: row;
 }
-
+.before-nav img {
+  max-width: 100%;
+}
+.before-nav .search-box {
+  width: 100%;
+  border: 1px solid var(--main-color);
+  padding: 10px 30px 10px 0;
+}
 /* END UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
