@@ -44,11 +44,5 @@ body {
   color: var(--main-color);
   padding: 5px 10px;
 }
-.upper-header .lang .choose-country {
-  background-color: transparent;
-  border: 1px solid var(--main-color);
-  color: var(--main-color);
-  padding: 5px 10px;
-}
 
 /* END UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
