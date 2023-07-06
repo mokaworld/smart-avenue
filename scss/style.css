@@ -20,6 +20,8 @@ body {
 /* START UPPER HEADER SECTION */
 .upper-header {
   background-color: var(--main-background);
+}
+.upper-header .container {
   display: flex;
   flex-direction: row;
   align-content: center;
