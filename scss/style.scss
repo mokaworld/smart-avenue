@@ -18,14 +18,24 @@
     /* START UPPER HEADER SECTION */
     .upper-header{
       background-color: var(--main-background);
+      padding: 10px 0 20px 0;
       .container{
         display: flex;
         flex-direction: row;
         align-content: center;
         justify-content: space-between;
       }
+      .sign-in{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+      }
       .lang-site{
         display: flex;
+      }
+      .lang{
+
       }
     }
     /* END UPPER HEADER SECTION */
