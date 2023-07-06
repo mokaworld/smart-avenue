@@ -74,6 +74,9 @@ body {
   -ms-border-radius: 5px 0 0 5px;
   -o-border-radius: 5px 0 0 5px;
 }
+.lang .choose-lang i {
+  margin-right: 5px;
+}
 .lang i {
   margin-right: 5px;
 }
