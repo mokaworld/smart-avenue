@@ -1,3 +1,8 @@
+/*  ROOT */
+:root {
+  --main-background:#FFFFFF;
+}
+
 /* START MAIN RULES */
 * {
   box-sizing: border-box;
@@ -10,4 +15,11 @@ body {
   font-family: "Kablammo", cursive;
   font-family: "Lilita One", cursive;
   font-family: "Tajawal", sans-serif;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* START UPPER HEADER SECTION */
+.upper-header {
+  background-color: var(--main-background);
+}
+
+/* START UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
