@@ -20,6 +20,10 @@ body {
 /* START UPPER HEADER SECTION */
 .upper-header {
   background-color: var(--main-background);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
 }
 
 /* START UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
