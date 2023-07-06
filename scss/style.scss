@@ -1,88 +1,84 @@
 /*  ROOT */
-:root{
-  --main-color:#D7B97D;
-  --main-background :#FFFFFF;
+:root {
+  --main-color: #d7b97d;
+  --main-background: #ffffff;
 }
 /* START MAIN RULES */
-*{
-    box-sizing: border-box;
-  }
-  /*END  MAIN RULES */
-  body{
-    font-family: 'Cairo', sans-serif;
-    font-family: 'El Messiri', sans-serif;
-    font-family: 'Kablammo', cursive;
-    font-family: 'Lilita One', cursive;
-    font-family: 'Tajawal', sans-serif;
-  }
-
-    /* START UPPER HEADER SECTION */
-    .upper-header{
-      background-color: var(--main-background);
-      padding: 10px 0 20px 0;
-      .container{
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: space-between;
-      }
-      .sign-in{
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        .sign-in-btn{
-          background-color: transparent;
-          border:1px solid var(--main-color) ;
-          color: var(--main-color);
-          padding: 10px ;
-          border-radius: 3px;
-          -webkit-border-radius: 3px;
-          -moz-border-radius: 3px;
-          -ms-border-radius: 3px;
-          -o-border-radius: 3px;
+* {
+  box-sizing: border-box;
 }
-.fa-circle-user{
-  margin-left: 5px;
+/*END  MAIN RULES */
+body {
+  font-family: "Cairo", sans-serif;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Kablammo", cursive;
+  font-family: "Lilita One", cursive;
+  font-family: "Tajawal", sans-serif;
 }
 
-      }
-      .lang-site{
-        display: flex;
-      }
-     
-      }
-      .country{
-        .choose-country{
-              background-color: transparent;
-              border:1px solid var(--main-color) ;
-              color: var(--main-color);
-              padding: 5px 25px;
-              border-radius: 0 5px 5px 0;
-              -webkit-border-radius: 0 5px 5px 0;
-              -moz-border-radius: 0 5px 5px 0;
-              -ms-border-radius: 0 5px 5px 0;
-              -o-border-radius: 0 5px 5px 0;
-}
-      }
-      .lang{
-        .choose-lang{
-          background-color: transparent;
-          border:1px solid var(--main-color) ;
-          border-right-color: transparent;
-          color: var(--main-color);
-          padding: 5px 10px;
-          border-radius: 5px 0 0 5px;
-          -webkit-border-radius: 5px 0 0 5px;
-          -moz-border-radius: 5px 0 0 5px;
-          -ms-border-radius: 5px 0 0 5px;
-          -o-border-radius: 5px 0 0 5px;
-          i{
-            margin-right: 5px;
-           }
-}
- .fa-globe{
-  margin-right: 5px;
- }
+/* START UPPER HEADER SECTION */
+.upper-header {
+  background-color: var(--main-background);
+  padding: 10px 0 20px 0;
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .sign-in {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    .sign-in-btn {
+      background-color: transparent;
+      border: 1px solid var(--main-color);
+      color: var(--main-color);
+      padding: 10px;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
     }
-    /* END UPPER HEADER SECTION */
+    .fa-circle-user {
+      margin-left: 5px;
+    }
+  }
+  .lang-site {
+    display: flex;
+  }
+}
+.country {
+  .choose-country {
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    padding: 5px 25px;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+  }
+}
+.lang {
+  .choose-lang {
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    border-right-color: transparent;
+    color: var(--main-color);
+    padding: 5px 10px;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+   .fa-globe {
+      margin-right: 5px;
+    }
+  }
+
+}
+/* END UPPER HEADER SECTION */

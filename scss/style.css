@@ -1,7 +1,7 @@
 /*  ROOT */
 :root {
-  --main-color:#D7B97D;
-  --main-background:#FFFFFF;
+  --main-color: #d7b97d;
+  --main-background: #ffffff;
 }
 
 /* START MAIN RULES */
@@ -77,10 +77,7 @@ body {
   -ms-border-radius: 5px 0 0 5px;
   -o-border-radius: 5px 0 0 5px;
 }
-.lang .choose-lang i {
-  margin-right: 5px;
-}
-.lang .fa-globe {
+.lang .choose-lang .fa-globe {
   margin-right: 5px;
 }
 
