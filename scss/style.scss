@@ -36,12 +36,18 @@
         display: flex;
       }
       .lang{
-        .choose-lang,
+        .choose-lang{
+          background-color: transparent;
+          border:1px solid var(--main-color) ;
+          color: var(--main-color);
+          padding: 5px 10px;
+        }
         .choose-country{
 
           background-color: transparent;
           border:1px solid var(--main-color) ;
           color: var(--main-color);
+          padding: 5px 10px;
         }
       }
     }
