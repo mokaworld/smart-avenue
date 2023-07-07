@@ -138,4 +138,14 @@ body {
   .bg-light{
     background-color: var(--main-color)!important;
   }
+  .navbar-light{
+    .navbar-nav {
+      .nav-link{
+        &:hover{
+          background-color: var(--main-background);
+          color: #333;
+        }
+      }
+    }
+  } 
 }
