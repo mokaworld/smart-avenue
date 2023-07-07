@@ -12,6 +12,7 @@
 
 /*END  MAIN RULES */
 body {
+  direction: rtl;
   font-family: "Cairo", sans-serif;
   font-family: "El Messiri", sans-serif;
   font-family: "Kablammo", cursive;
