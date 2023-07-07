@@ -21,7 +21,7 @@ body {
 .upper-header {
   background-color: var(--main-background);
   padding: 8px 0;
-  font-size: 12px;
+  font-size: 14px;
   .container {
     display: flex;
     flex-direction: row;
@@ -116,8 +116,13 @@ body {
  .search-box{
   width: 100%;
   border: 1px solid var(--main-color);
+  border-radius: var(--main-border-rads);
   padding: 10px 30px 10px 0;
- }
+  -webkit-border-radius: var(--main-border-rads);
+  -moz-border-radius: var(--main-border-rads);
+  -ms-border-radius: var(--main-border-rads);
+  -o-border-radius: var(--main-border-rads);
+}
  
  .fa-cart-shopping{
    font-size: 32px;
