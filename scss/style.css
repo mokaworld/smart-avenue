@@ -22,6 +22,7 @@ body {
 
 /* START UPPER HEADER SECTION */
 .upper-header {
+  position: relative;
   background-color: var(--main-background);
   padding: 8px 0;
   font-size: 14px;
@@ -107,6 +108,11 @@ body {
 .before-nav img {
   max-width: 50%;
 }
+.before-nav .fa-magnifying-glass {
+  position: absolute;
+  left: 68%;
+  margin-left: 2px;
+}
 .before-nav .search-box {
   width: 100%;
   border: 1px solid var(--main-color);
@@ -148,4 +154,9 @@ body {
   -moz-transition: 0.1s;
   -ms-transition: 0.1s;
   -o-transition: 0.1s;
+}
+
+.slider img {
+  max-width: 50%;
+  margin: 10px auto;
 }/*# sourceMappingURL=style.css.map */

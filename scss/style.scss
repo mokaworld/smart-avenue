@@ -20,6 +20,7 @@ body {
 
 /* START UPPER HEADER SECTION */
 .upper-header {
+  position: relative;
   background-color: var(--main-background);
   padding: 8px 0;
   font-size: 14px;
@@ -111,6 +112,11 @@ body {
  img{
   max-width: 50%;
  }
+ .fa-magnifying-glass{
+    position: absolute;
+    left: 68%;
+    margin-left: 2px;
+ }
  .search-box{
   width: 100%;
   border: 1px solid var(--main-color);
@@ -162,4 +168,11 @@ body {
       }
     }
   } 
+}
+
+.slider{
+  img{
+    max-width: 50%;
+    margin: 10px auto;
+  }
 }
