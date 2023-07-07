@@ -50,6 +50,11 @@ body {
 }
 .upper-header .sign-in .sign-in-btn:hover, .upper-header .sign-in .sign-in-btn:focus {
   background-color: #343a40;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .upper-header .sign-in .sign-in-btn .fa-circle-user {
   font-size: 14px;

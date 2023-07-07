@@ -47,7 +47,12 @@ body {
       &:hover,
       &:focus{
        background-color: #343a40;
-      }
+       transition: .5s;
+       -webkit-transition: .5s;
+       -moz-transition: .5s;
+       -ms-transition: .5s;
+       -o-transition: .5s;
+}
       .fa-circle-user{
         font-size: 14px;
       }
