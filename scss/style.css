@@ -130,6 +130,7 @@ body {
 
 .menu .bg-light {
   background-color: var(--main-color) !important;
+  padding: 0 10px;
 }
 .menu .navbar-light .navbar-nav .nav-link {
   color: var(--main-background);
