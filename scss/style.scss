@@ -10,6 +10,7 @@
 }
 /*END  MAIN RULES */
 body {
+  font-size: 16px;
   font-family: "Cairo", sans-serif;
   font-family: "El Messiri", sans-serif;
   font-family: "Kablammo", cursive;
@@ -142,15 +143,16 @@ body {
   .navbar-light{
     .navbar-nav {
       .nav-link{
-        color: var(--main-background)!important;
+        color: var(--main-background);
+        font-weight: 400;
         &:hover{
           background-color: var(--main-background);
           color: #333;
-          transition: .5s;
-          -webkit-transition: .5s;
-          -moz-transition: .5s;
-          -ms-transition: .5s;
-          -o-transition: .5s;
+          transition: .3s;
+          -webkit-transition: .3s;
+          -moz-transition: .3s;
+          -ms-transition: .3s;
+          -o-transition: .3s;
         }
       }
     }
