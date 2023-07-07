@@ -158,4 +158,21 @@ body {
 
 .slider img {
   max-width: 100%;
+}
+
+.services {
+  padding: 50px 0;
+}
+.services h3 {
+  color: var(--main-color);
+}
+.services img {
+  max-width: 100%;
+  margin: 10px 0;
+  border: 3px solid var(--main-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
