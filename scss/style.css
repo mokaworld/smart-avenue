@@ -121,6 +121,9 @@ body {
   color: var(--main-color);
   cursor: pointer;
 }
+.before-nav .fa-cart-shopping:focus {
+  outline: none;
+}
 .before-nav .cart {
   justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */
