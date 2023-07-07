@@ -146,6 +146,11 @@ body {
         &:hover{
           background-color: var(--main-background);
           color: #333;
+          transition: .5s;
+          -webkit-transition: .5s;
+          -moz-transition: .5s;
+          -ms-transition: .5s;
+          -o-transition: .5s;
         }
       }
     }
