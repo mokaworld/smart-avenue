@@ -114,4 +114,7 @@ body {
   font-size: 32px;
   color: var(--main-color);
   cursor: pointer;
+}
+.before-nav .cart {
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */
