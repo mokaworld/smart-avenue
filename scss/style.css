@@ -175,4 +175,13 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+.footer {
+  background-color: var(--main-color);
+  color: var(--main-background);
+}
+.footer hr {
+  width: 83%;
+  margin: 20px auto;
 }/*# sourceMappingURL=style.css.map */
