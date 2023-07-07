@@ -137,6 +137,8 @@ body {
 .menu{
   .bg-light{
     background-color: var(--main-color)!important;
+    color: var(--main-background);
+    font-size: 14px;
   }
   .navbar-light{
     .navbar-nav {
