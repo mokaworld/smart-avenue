@@ -130,8 +130,10 @@ body {
 
 .menu .bg-light {
   background-color: var(--main-color) !important;
-  color: var(--main-background);
   font-size: 14px;
+}
+.menu .navbar-light .navbar-nav .nav-link {
+  color: var(--main-background);
 }
 .menu .navbar-light .navbar-nav .nav-link:hover {
   background-color: var(--main-background);
