@@ -147,6 +147,8 @@ body {
         font-size: 14px;
         font-weight: 400;
         margin-left: 15px;
+        padding: 10px;
+        font-weight: 500;
         &:hover{
           background-color: var(--main-background);
           color: #333;
@@ -155,6 +157,7 @@ body {
           -moz-transition: .1s;
           -ms-transition: .1s;
           -o-transition: .1s;
+          font-weight: 600;
 }
       }
     }
