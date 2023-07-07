@@ -51,6 +51,9 @@ body {
 .upper-header .sign-in .sign-in-btn:hover, .upper-header .sign-in .sign-in-btn:focus {
   background-color: #343a40;
 }
+.upper-header .sign-in .sign-in-btn .fa-circle-user {
+  font-size: 14px;
+}
 .upper-header .sign-in .fa-circle-user {
   margin-left: 5px;
 }
@@ -84,6 +87,7 @@ body {
 }
 .lang .choose-lang .fa-globe {
   margin-right: 5px;
+  font-size: 14px;
 }
 
 /* END UPPER HEADER SECTION */
