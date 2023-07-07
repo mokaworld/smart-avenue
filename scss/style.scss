@@ -142,7 +142,7 @@ body {
   .navbar-light{
     .navbar-nav {
       .nav-link{
-        color: var(--main-background);
+        color: var(--main-background)!important;
         &:hover{
           background-color: var(--main-background);
           color: #333;
