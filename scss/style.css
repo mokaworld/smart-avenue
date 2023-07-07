@@ -126,4 +126,8 @@ body {
 }
 .before-nav .cart {
   justify-content: flex-end;
+}
+
+.menu .bg-light {
+  background-color: var(--main-color) !important;
 }/*# sourceMappingURL=style.css.map */
