@@ -134,7 +134,7 @@ body {
 }
 .menu .navbar-light .navbar-nav .nav-link {
   color: var(--main-background);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   margin-left: 15px;
 }
