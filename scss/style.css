@@ -86,6 +86,7 @@ body {
   margin-right: 5px;
 }
 
+/* END UPPER HEADER SECTION */
 .before-nav {
   background: var(--main-background);
   padding: 15px 0;
@@ -109,6 +110,4 @@ body {
   font-size: 32px;
   color: var(--main-color);
   cursor: pointer;
-}
-
-/* END UPPER HEADER SECTION *//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
