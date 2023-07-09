@@ -202,3 +202,24 @@ body {
     margin: 20px auto;
   }
 }
+
+.offers{
+  h3{
+    color: var(--main-color);
+  }
+  .slick-slider{
+    img{
+      max-width: 100%;
+    }
+    .slick-next{
+       background-color: var(--main-color);
+       border-radius: 50%;
+       padding: 1px 0 0 5px;
+    }
+    .slick-prev{
+      background-color: var(--main-color);
+      border-radius: 50%;
+       padding: 1px 0 0 5px;
+    }
+  }
+}

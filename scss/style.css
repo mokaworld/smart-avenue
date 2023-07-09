@@ -184,4 +184,21 @@ body {
 .footer hr {
   width: 83%;
   margin: 20px auto;
+}
+
+.offers h3 {
+  color: var(--main-color);
+}
+.offers .slick-slider img {
+  max-width: 100%;
+}
+.offers .slick-slider .slick-next {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  padding: 1px 0 0 5px;
+}
+.offers .slick-slider .slick-prev {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  padding: 1px 0 0 5px;
 }/*# sourceMappingURL=style.css.map */
