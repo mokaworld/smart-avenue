@@ -192,13 +192,20 @@ body {
 .offers .slick-slider img {
   max-width: 100%;
 }
-.offers .slick-slider .slick-next {
+.offers .slick-slider .slick-arrow {
   background-color: var(--main-color);
   border-radius: 50%;
   padding: 1px 0 0 5px;
+  top: 42%;
+}
+.offers .slick-slider .slick-next {
+  right: -30px;
 }
 .offers .slick-slider .slick-prev {
-  background-color: var(--main-color);
-  border-radius: 50%;
-  padding: 1px 0 0 5px;
+  left: -30px;
+}
+@media (max-width: 767px) {
+  .offers .slick-slider .slick-arrow {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

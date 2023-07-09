@@ -211,15 +211,24 @@ body {
     img{
       max-width: 100%;
     }
-    .slick-next{
+    .slick-arrow{
        background-color: var(--main-color);
        border-radius: 50%;
        padding: 1px 0 0 5px;
+       top: 42%;
+       
     }
-    .slick-prev{
-      background-color: var(--main-color);
-      border-radius: 50%;
-       padding: 1px 0 0 5px;
+     .slick-next{
+      right: -30px; 
+     }
+     .slick-prev {
+        left: -30px; 
+     }
+     $breakpoint-mobile: 767px;
+     @media (max-width: $breakpoint-mobile) {
+      .slick-arrow{
+        display: none;
+      }
     }
   }
 }
