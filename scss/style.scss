@@ -227,7 +227,7 @@ body {
      $breakpoint-mobile: 767px;
      @media (max-width: $breakpoint-mobile) {
       .slick-arrow{
-        display: none;
+        display: none!important;
       }
     }
   }

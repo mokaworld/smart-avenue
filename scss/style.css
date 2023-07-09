@@ -206,6 +206,6 @@ body {
 }
 @media (max-width: 767px) {
   .offers .slick-slider .slick-arrow {
-    display: none;
+    display: none !important;
   }
 }/*# sourceMappingURL=style.css.map */
