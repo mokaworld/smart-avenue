@@ -196,19 +196,59 @@ body {
 
 
 .offers{
-  .box-offer{
-    .card{
-      width: 17rem;
-    }
-  }
-  
+ 
   h3{
     color: var(--main-color);
   }
+  .card{
+    width: 16rem;
+    cursor: pointer;
+    margin: 5px auto;
+    border-radius: 10px;
+    &:hover{
+      border-color: var(--main-color);
+      box-shadow: 0 20px 20px var(--main-color);
+      transition:ease-in-out .5s;
+      -webkit-transition:ease-in-out .5s;
+      -moz-transition:ease-in-out .5s;
+      -ms-transition:ease-in-out .5s;
+      -o-transition:ease-in-out .5s;
+}
+  }
+
   .slick-slider{
     img{
       max-width: 100%;
       margin-bottom:10px ;
+      border-radius: 10px 10px 0 0;
+    }
+    .card-title{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .price{
+      font-weight: 800;
+      color:var(--main-color);
+    }
+    .add-to-card{
+      background-color: var(--main-color);
+      border-color: #ccc;
+      display: block;
+      text-decoration: none;
+      color: var(--main-background);
+      border: 1px solid var(--main-background);;
+      border-radius: 5px;
+      margin: 10px 0;
+      padding: 5px 0;
+      &:hover{
+        background-color: #343a40;
+        color: var(--main-color);
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+}
     }
     .slick-arrow{
        background-color: var(--main-color);
@@ -246,5 +286,15 @@ body {
   .offers .card{
     width: 100%!important;
     margin: 0 auto!important;
+  }
+  .footer{
+    text-align: center;
+  }
+  .footer h5{
+    margin: 10px 0;
+  }
+  .footer ul li{
+    margin-left: 43px;
+    line-height: 30px;
   }
 }
