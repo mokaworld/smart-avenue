@@ -213,7 +213,7 @@ body {
       -moz-transition:ease-in-out .5s;
       -ms-transition:ease-in-out .5s;
       -o-transition:ease-in-out .5s;
-}
+    }
   }
 
   .slick-slider{
@@ -230,6 +230,12 @@ body {
       font-weight: 800;
       color:var(--main-color);
     }
+    .discount{
+      text-decoration: line-through;
+      color: red;
+      margin-left: 10px;
+    }
+   
     .add-to-card{
       background-color: var(--main-color);
       border-color: #ccc;
@@ -248,6 +254,9 @@ body {
         -moz-transition: .5s;
         -ms-transition: .5s;
         -o-transition: .5s;
+}
+.fa-cart-shopping{
+  margin-right: 10px;
 }
     }
     .slick-arrow{

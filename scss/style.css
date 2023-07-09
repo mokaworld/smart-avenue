@@ -208,6 +208,11 @@ body {
   font-weight: 800;
   color: var(--main-color);
 }
+.offers .slick-slider .discount {
+  text-decoration: line-through;
+  color: red;
+  margin-left: 10px;
+}
 .offers .slick-slider .add-to-card {
   background-color: var(--main-color);
   border-color: #ccc;
@@ -227,6 +232,9 @@ body {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+}
+.offers .slick-slider .add-to-card .fa-cart-shopping {
+  margin-right: 10px;
 }
 .offers .slick-slider .slick-arrow {
   background-color: var(--main-color);
