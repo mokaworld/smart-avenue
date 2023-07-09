@@ -285,6 +285,31 @@ body {
     width: 83%;
     margin: 20px auto;
   }
+  ul{
+    li{
+      &:hover{
+        color:#343a40;
+        cursor: pointer;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+      }
+    }
+  }
+  address,p{ 
+    &:hover{
+      color:#343a40;
+      cursor: pointer;
+      transition: .5s;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+    }
+  
+  }
   
 }
 

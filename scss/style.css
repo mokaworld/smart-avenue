@@ -257,6 +257,24 @@ body {
   width: 83%;
   margin: 20px auto;
 }
+.footer ul li:hover {
+  color: #343a40;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.footer address:hover, .footer p:hover {
+  color: #343a40;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
 
 @media (max-width: 767px) {
   .offers .slick-arrow {
