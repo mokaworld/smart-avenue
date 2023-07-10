@@ -56,13 +56,14 @@
   margin: 0 0 20px 0;
 }
 .fixed-menu .content-fixed-menu select {
-  border: 1px solid var(--main-color);
-  border-radius: none;
+  border: 3px solid var(--main-color) !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
   cursor: pointer;
-  -webkit-border-radius: none;
-  -moz-border-radius: none;
-  -ms-border-radius: none;
-  -o-border-radius: none;
+  outline: none;
 }
 
 /*END  MAIN RULES */
