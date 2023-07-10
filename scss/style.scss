@@ -17,7 +17,9 @@ body {
   font-family: 'Tajawal', sans-serif;
   font-family: 'Cairo', sans-serif;
 }
-
+.bars{
+  display: block;
+}
 /* START UPPER HEADER SECTION */
 .upper-header {
   position: relative;
@@ -276,86 +278,6 @@ body {
   }
 }
 
-.most-wanted {
- 
-  h3{
-    color: var(--main-color);
-  }
-  .card{
-    width: 16rem;
-    cursor: pointer;
-    margin: 5px auto;
-    border-radius: 10px;
-    &:hover{
-      border-color: var(--main-color);
-      box-shadow: 0 20px 20px var(--main-color);
-      transition:ease-in-out .5s;
-      -webkit-transition:ease-in-out .5s;
-      -moz-transition:ease-in-out .5s;
-      -ms-transition:ease-in-out .5s;
-      -o-transition:ease-in-out .5s;
-    }
-  }
-
-  .slick-slider{
-    img{
-      max-width: 100%;
-      margin-bottom:10px ;
-      border-radius: 10px 10px 0 0;
-    }
-    .card-title{
-      font-size: 18px;
-      font-weight: bold;
-    }
-    .price{
-      font-weight: 800;
-      color:var(--main-color);
-    }
-    .discount{
-      text-decoration: line-through;
-      color: red;
-      margin-left: 10px;
-    }
-   
-    .add-to-card{
-      background-color: var(--main-color);
-      border-color: #ccc;
-      display: block;
-      text-decoration: none;
-      color: var(--main-background);
-      border: 1px solid var(--main-background);;
-      border-radius: 5px;
-      margin: 10px 0;
-      padding: 5px 0;
-      &:hover{
-        background-color: #343a40;
-        color: var(--main-color);
-        transition: .5s;
-        -webkit-transition: .5s;
-        -moz-transition: .5s;
-        -ms-transition: .5s;
-        -o-transition: .5s;
-}
-.fa-cart-shopping{
-  margin-right: 10px;
-}
-    }
-    .slick-arrow{
-       background-color: var(--main-color);
-       border-radius: 50%;
-       padding: 1px 0 0 5px;
-       top: 42%;
-       
-    }
-     .slick-next{
-      right: -30px; 
-     }
-     .slick-prev {
-        left: -30px; 
-     }
-    
-  }
-}
 
 
 
@@ -392,26 +314,6 @@ body {
   
   }
   
-}
-
-@media (max-width: 767px)  {
-  .offers .slick-arrow{
-    display: none!important;
-  }
-  .offers .card{
-    width: 100%!important;
-    margin: 0 auto!important;
-  }
-  .footer{
-    text-align: center;
-  }
-  .footer h5{
-    margin: 10px 0;
-  }
-  .footer ul li{
-    margin-left: 43px;
-    line-height: 30px;
-  }
 }
 
 .header-login{
@@ -484,3 +386,47 @@ body {
 }
 
 
+
+@media (max-width: 767px)  {
+  .bars{
+    display: block;
+    padding: 10px 0;
+  }
+  .fa-bars-staggered{
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .header{
+    background-color: var(--main-color);
+   
+    
+  }
+  .fa-magnifying-glass{
+    
+  }
+  .offers .slick-arrow{
+    display: none!important;
+  }
+  .offers .card{
+    width: 100%!important;
+    margin: 0 auto!important;
+  }
+
+  .footer{
+    text-align: center;
+  }
+  .footer h5{
+    margin: 10px 0;
+  }
+  .footer ul li{
+    margin-left: 43px;
+    line-height: 30px;
+  }
+  .header-login img {
+    max-width: 100%!important;
+}
+  .login{
+    width: 20rem!important;
+   
+  }
+}
