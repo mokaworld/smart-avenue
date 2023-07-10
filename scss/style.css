@@ -52,6 +52,18 @@
   margin-right: -5px;
   border-right: transparent;
 }
+.fixed-menu .content-fixed-menu h3 {
+  margin: 0 0 20px 0;
+}
+.fixed-menu .content-fixed-menu select {
+  border: 1px solid var(--main-color);
+  border-radius: none;
+  cursor: pointer;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+}
 
 /*END  MAIN RULES */
 body {
