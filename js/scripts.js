@@ -1,3 +1,4 @@
+
 //INIT OWL SLIDER 
 $('.owl-carousel').owlCarousel({
     loop:true,
@@ -19,7 +20,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
-
+//INIT SLICK SLIDER  
 $('.slick-slider').slick({
     rtl:true,
     autoplay:false,
@@ -58,3 +59,11 @@ $('.slick-slider').slick({
     ]
   });
 
+//NAVBAR FUNCTIONS 
+$('.bars').click( function(){
+  $('.menu').fadeIn();
+});
+
+$('.close').click( function(){
+  $('.menu').fadeOut();
+});
