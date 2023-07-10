@@ -24,6 +24,7 @@ body {
   }
   .bars{
     cursor: pointer;
+    transform: translateY(35%);
     .fa-bars-staggered{
     
       font-size: 25px;
@@ -379,6 +380,9 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+  .menu ul{
+    flex-direction: column;
   }
   
   .offers .slick-arrow{
