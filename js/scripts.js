@@ -39,7 +39,7 @@ $('.slick-slider').slick({
   });
 
 //NAVBAR FUNCTIONS 
-$('.bars').click( function(){
+$('.header .bars-icon').click( function(){
   $('.menu').fadeIn();
 });
 
@@ -47,3 +47,16 @@ $('.close').click( function(){
   $('.menu').fadeOut();
 });
 
+$('.fixed-menu .gear').click(function(){
+  $(this).parent('.fixed-menu').toggleClass('visible');
+  if($(this).parent('.fixed-menu').hasClass('visible') ){
+    $(this).parent('.fixed-menu').animate({
+      left : 0
+    });
+  }else{
+    $(this).parent('.fixed-menu').animate({
+      left : '-250px'
+    });
+  }
+  
+});
