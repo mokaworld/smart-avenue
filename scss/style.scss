@@ -1,5 +1,6 @@
 /*  ROOT */
 :root {
+  
   --main-color: #C1B48A;
   --main-background: #ffffff;
   --main-border-rads: 3px;
@@ -7,6 +8,48 @@
 /* START MAIN RULES */
 * {
   box-sizing: border-box;
+}
+.gear-seeting{
+    position: fixed;
+    z-index: 99999;
+    top: 30%;
+    left:0;
+    background: var(--main-color);
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    &:hover{
+      background: #343a40;
+      color:var(--main-background);
+      transition: .2s;
+      -webkit-transition: .2s;
+      -moz-transition: .2s;
+      -ms-transition: .2s;
+      -o-transition: .2s;
+}
+    cursor: pointer;
+    .fa-gear{
+      font-size: 20px;
+      animation: rotation 2s infinite linear;
+      -webkit-animation: rotation 2s infinite linear;
+    
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+}
+.settings{
+  position: fixed;
+    z-index: 99999;
+    left: -20%;
+  background: var(--main-color);
+    width: 20%;
+    height: 100vh;
+    padding: 10px;
 }
 /*END  MAIN RULES */
 body {

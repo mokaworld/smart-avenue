@@ -10,6 +10,49 @@
   box-sizing: border-box;
 }
 
+.gear-seeting {
+  position: fixed;
+  z-index: 99999;
+  top: 30%;
+  left: 0;
+  background: var(--main-color);
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+.gear-seeting:hover {
+  background: #343a40;
+  color: var(--main-background);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.gear-seeting .fa-gear {
+  font-size: 20px;
+  animation: rotation 2s infinite linear;
+  -webkit-animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.settings {
+  position: fixed;
+  z-index: 99999;
+  left: -20%;
+  background: var(--main-color);
+  width: 20%;
+  height: 100vh;
+  padding: 10px;
+}
+
 /*END  MAIN RULES */
 body {
   direction: rtl;
