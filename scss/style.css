@@ -249,6 +249,78 @@ body {
   left: -30px;
 }
 
+.most-wanted h3 {
+  color: var(--main-color);
+}
+.most-wanted .card {
+  width: 16rem;
+  cursor: pointer;
+  margin: 5px auto;
+  border-radius: 10px;
+}
+.most-wanted .card:hover {
+  border-color: var(--main-color);
+  box-shadow: 0 20px 20px var(--main-color);
+  transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -ms-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+}
+.most-wanted .slick-slider img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.most-wanted .slick-slider .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.most-wanted .slick-slider .price {
+  font-weight: 800;
+  color: var(--main-color);
+}
+.most-wanted .slick-slider .discount {
+  text-decoration: line-through;
+  color: red;
+  margin-left: 10px;
+}
+.most-wanted .slick-slider .add-to-card {
+  background-color: var(--main-color);
+  border-color: #ccc;
+  display: block;
+  text-decoration: none;
+  color: var(--main-background);
+  border: 1px solid var(--main-background);
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.most-wanted .slick-slider .add-to-card:hover {
+  background-color: #343a40;
+  color: var(--main-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.most-wanted .slick-slider .add-to-card .fa-cart-shopping {
+  margin-right: 10px;
+}
+.most-wanted .slick-slider .slick-arrow {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  padding: 1px 0 0 5px;
+  top: 42%;
+}
+.most-wanted .slick-slider .slick-next {
+  right: -30px;
+}
+.most-wanted .slick-slider .slick-prev {
+  left: -30px;
+}
+
 .footer {
   background-color: var(--main-color);
   color: var(--main-background);
