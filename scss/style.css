@@ -13,11 +13,11 @@
 /*END  MAIN RULES */
 body {
   direction: rtl;
-  font-family: "Cairo", sans-serif;
   font-family: "El Messiri", sans-serif;
   font-family: "Kablammo", cursive;
   font-family: "Lilita One", cursive;
   font-family: "Tajawal", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 /* START UPPER HEADER SECTION */
@@ -366,4 +366,64 @@ body {
     margin-left: 43px;
     line-height: 30px;
   }
+}
+.header-login img {
+  max-width: 10%;
+  margin-top: 20px;
+}
+
+.login {
+  width: 25rem;
+  margin: 30px auto;
+  padding: 70px 10px;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.login h4 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.login p {
+  color: #888;
+}
+.login .entry-feild {
+  display: flex;
+}
+.login .entry-feild select,
+.login .entry-feild input {
+  margin: 30px 0;
+  border-color: var(--main-color);
+}
+.login .entry-feild select {
+  width: 75px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 15px;
+}
+.login .entry-feild input[type=number] {
+  width: 80%;
+}
+.login .entry-feild input[type=number]:hover {
+  border-color: var(--main-color);
+}
+.login .enter {
+  padding: 15px;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  color: var(--main-background);
+  font-weight: 500;
+}
+.login .enter:hover {
+  color: var(--main-color);
+  border-color: var(--main-color);
+  background-color: transparent;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
