@@ -155,6 +155,13 @@ body {
   padding: 20px 0;
   background-color: var(--main-color);
 }
+.upper-slider .container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
 .upper-slider button {
   background-color: transparent;
   border: 1px solid #eee;
