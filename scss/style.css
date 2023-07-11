@@ -82,6 +82,7 @@ body {
   font-family: "Cairo", sans-serif;
 }
 
+/**************************************** START HEADER  ******************************************************/
 .main-header {
   max-width: 1140px;
   padding: 10px 0;
@@ -101,8 +102,6 @@ body {
   max-width: 50%;
 }
 
-/* START UPPER HEADER SECTION */
-/* END UPPER HEADER SECTION */
 .menu {
   position: fixed;
   top: 0;
@@ -230,6 +229,8 @@ body {
   max-width: 100%;
 }
 
+/**************************************** END HEADER  ******************************************************/
+/**************************************** START SERVICES  ******************************************************/
 .services {
   padding: 50px 0;
 }
@@ -247,6 +248,8 @@ body {
   -o-border-radius: 10px;
 }
 
+/**************************************** END SERVICES  ******************************************************/
+/**************************************** START OFFERS  ******************************************************/
 .offers h3 {
   color: var(--main-color);
 }
@@ -319,13 +322,14 @@ body {
   left: -30px;
 }
 
+/**************************************** END OFFERS  ******************************************************/
+/**************************************** START FOOTER  ******************************************************/
 .footer {
   background-color: var(--main-color);
   color: var(--main-background);
 }
-.footer hr {
-  width: 83%;
-  margin: 20px auto;
+.footer h5 {
+  margin-bottom: 5px;
 }
 .footer ul li:hover {
   color: #343a40;
@@ -345,7 +349,13 @@ body {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
+.footer hr {
+  width: 83%;
+  margin: 20px auto;
+}
 
+/**************************************** END FOOTER  ******************************************************/
+/**************************************** START LOGIN PAGE ******************************************************/
 .header-login img {
   max-width: 10%;
   margin-top: 20px;
@@ -407,6 +417,8 @@ body {
   -o-transition: 0.5s;
 }
 
+/**************************************** END LOGIN PAGE ******************************************************/
+/**************************************** START MEDIA QUERY ******************************************************/
 @media (max-width: 767px) {
   .main-header ul {
     position: absolute;
@@ -446,4 +458,5 @@ body {
   .login {
     width: 20rem !important;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/**************************************** END MEDIA QUERY ******************************************************//*# sourceMappingURL=style.css.map */
