@@ -434,6 +434,15 @@ body {
   }
   .menu ul {
     flex-direction: column;
+    transform: translate(-45%, -50%);
+  }
+  .menu ul li {
+    padding: 20px 0;
+    margin: 10px auto;
+  }
+  .menu ul li:hover {
+    margin-top: 0;
+    box-shadow: none;
   }
   .offers .slick-arrow {
     display: none !important;
