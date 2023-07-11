@@ -24,6 +24,7 @@
   top: 200px;
   right: -40px;
   background: var(--main-color);
+  color: var(--main-background);
   width: 30px;
   height: 25px;
   line-height: 30px;
@@ -54,16 +55,21 @@
 }
 .fixed-menu .content-fixed-menu h3 {
   margin: 0 0 20px 0;
+  font-size: 18px;
 }
 .fixed-menu .content-fixed-menu select {
-  border: 3px solid var(--main-color) !important;
+  background: transparent;
+  border: 1px solid #343a40 !important;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0;
   cursor: pointer;
-  outline: none;
+}
+.fixed-menu .content-fixed-menu option {
+  background-color: var(--main-color);
+  color: #343a40;
 }
 
 /*END  MAIN RULES */
@@ -163,9 +169,9 @@ body {
   align-items: center;
 }
 .upper-slider button {
-  background-color: transparent;
-  border: 1px solid #eee;
+  background: #343a40;
   color: var(--main-background);
+  border: 1px solid #343a40;
   padding: 10px;
   margin-left: 10px;
   border-radius: var(--main-border-rads);
@@ -173,13 +179,9 @@ body {
   -moz-border-radius: var(--main-border-rads);
   -ms-border-radius: var(--main-border-rads);
   -o-border-radius: var(--main-border-rads);
-  background: transparent;
-  color: #343a40;
 }
 .upper-slider button:hover {
-  border: 1px solid #343a40;
-  background: #343a40;
-  color: var(--main-background);
+  color: var(--main-color);
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -191,8 +193,37 @@ body {
   display: inline;
   font-size: 20px;
 }
+.upper-slider .icons .fa-magnifying-glass {
+  color: var(--main-background);
+  margin-left: 10px;
+  font-size: 20px;
+  border: 1px solid #343a40;
+  padding: 5px;
+  border-radius: var(--main-border-rads);
+  -webkit-border-radius: var(--main-border-rads);
+  -moz-border-radius: var(--main-border-rads);
+  -ms-border-radius: var(--main-border-rads);
+  -o-border-radius: var(--main-border-rads);
+  background: #343a40;
+}
+.upper-slider .icons .fa-magnifying-glass:hover {
+  color: var(--main-color);
+}
 .upper-slider .icons .fa-cart-shopping {
+  color: var(--main-background);
   margin: 0 10px;
+  font-size: 20px;
+  border: 1px solid #343a40;
+  padding: 5px;
+  border-radius: var(--main-border-rads);
+  -webkit-border-radius: var(--main-border-rads);
+  -moz-border-radius: var(--main-border-rads);
+  -ms-border-radius: var(--main-border-rads);
+  -o-border-radius: var(--main-border-rads);
+  background: #343a40;
+}
+.upper-slider .icons .fa-cart-shopping:hover {
+  color: var(--main-color);
 }
 
 .slider img {
