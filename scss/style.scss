@@ -366,21 +366,30 @@ body {
 .footer{
   background-color: var(--main-color);
   color:var(--main-background);
+  line-height: 30px;
+  font-size: 14px;
   h5{
-    margin-bottom: 5px;
+    margin-bottom: 30px;
+    color: #343a40  ;
   }
 
   ul{
+    padding-right: 0;
     li{
-      &:hover{
-        color:#343a40;
-        cursor: pointer;
-        transition: .5s;
-        -webkit-transition: .5s;
-        -moz-transition: .5s;
-        -ms-transition: .5s;
-        -o-transition: .5s;
+      a{
+        text-decoration: none;
+        color:var(--main-background);
+        &:hover{
+          color:#343a40;
+          cursor: pointer;
+          transition: .5s;
+          -webkit-transition: .5s;
+          -moz-transition: .5s;
+          -ms-transition: .5s;
+          -o-transition: .5s;
+        }
       }
+    
     }
   }
   address,p{ 
@@ -394,6 +403,15 @@ body {
       -o-transition: .5s;
     }
   
+  }
+  .copyright{
+    span{
+      span{
+        color: #343a40;
+        margin-right: 5px;
+        font-weight: 900;
+      }
+    }
   }
   hr{
     width: 83%;
@@ -474,6 +492,164 @@ body {
 
 /**************************************** END LOGIN PAGE ******************************************************/
 
+
+/**************************************** START DESIGNS PAGE ******************************************************/
+.title-page{
+  margin-bottom: 15px;
+  background: #f3f3f3;
+  .container{
+      display: flex;
+  }
+  .ban{
+    padding-bottom: 20px;
+    line-height: 0;
+  }
+  h1{
+    color: var(--main-color);
+  }
+
+  span{
+    color:#343a40;
+  }
+}
+.navigator{
+  .breadcrumb{
+    background: #343a40;
+    margin-bottom: 0;
+    padding: 20px 5px 20px 0;
+    .container{
+      display: flex;
+    }
+    .breadcrumb-item{
+      cursor: pointer;
+      a{
+        text-decoration: none;
+        color: var(--main-background );
+        &:hover{
+          color: var(--main-color );
+          transition:.5s;
+          -webkit-transition:.5s;
+          -moz-transition:.5s;
+          -ms-transition:.5s;
+          -o-transition:.5s;
+          -webkit-transition:.5s;
+}
+      }
+    }
+    .breadcrumb-item.active{
+      display: flex;
+      color: var(--main-color);
+    }
+    .breadcrumb-item+.breadcrumb-item:before{
+      padding-left: 10px;
+    }
+  }
+  }
+ 
+.designs{
+    margin: 20px 0; 
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+  .card{
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .card-title{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .price{
+    font-weight: 800;
+    color:var(--main-color);
+  }
+  .discount{
+    text-decoration: line-through;
+    color: red;
+    margin-left: 10px;
+  }
+  
+  .add-to-card{
+    background-color: var(--main-color);
+    border-color: #ccc;
+    display: block;
+    text-decoration: none;
+    color: var(--main-background);
+    border: 1px solid var(--main-background);;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px 0;
+    &:hover{
+      background-color: #343a40;
+      color: var(--main-color);
+      transition: .5s;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+}
+  }
+  .fa-cart-shopping{
+    margin-right: 10px;
+  }
+}
+.pagination{
+
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px 0;
+  
+  .page-item.active{
+    .page-link{
+      background-color: var(--main-color);
+      border-color: var(--main-color);
+    }
+    .page-item {
+      .page-link{
+        color: #343a40!important;
+      }
+     
+    }
+  } 
+}
+.cat-menu{
+  padding-right: 20px;
+  margin: 20px 0;
+
+ 
+h4{
+  margin-bottom: 20px;
+  color: var(--main-color);
+}
+  ul{
+    padding: 0;
+  
+    li{
+      margin: 15px 0;
+      a{
+        text-decoration: none;
+        color:#343a40;
+        font-size: 12px;
+        &:hover{
+          color: var(--main-color);
+          padding-right: 5px;
+          transition: .5s;
+          -webkit-transition: .5s;
+          -moz-transition: .5s;
+          -ms-transition: .5s;
+          -o-transition: .5s;
+        }
+      }
+    }
+  }
+
+}
+
+/**************************************** END DESIGNS PAGE ******************************************************/
+
+
 /**************************************** START MEDIA QUERY ******************************************************/
 
 @media (max-width: 767px)  {
@@ -513,10 +689,10 @@ body {
   }
 
   .footer{
-    text-align: center;
+    text-align: right;
   }
   .footer h5{
-    margin: 10px 0;
+    margin: 15px 0;
   }
   .footer ul li{
     margin-left: 43px;

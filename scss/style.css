@@ -327,11 +327,21 @@ body {
 .footer {
   background-color: var(--main-color);
   color: var(--main-background);
+  line-height: 30px;
+  font-size: 14px;
 }
 .footer h5 {
-  margin-bottom: 5px;
+  margin-bottom: 30px;
+  color: #343a40;
 }
-.footer ul li:hover {
+.footer ul {
+  padding-right: 0;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: var(--main-background);
+}
+.footer ul li a:hover {
   color: #343a40;
   cursor: pointer;
   transition: 0.5s;
@@ -348,6 +358,11 @@ body {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+}
+.footer .copyright span span {
+  color: #343a40;
+  margin-right: 5px;
+  font-weight: 900;
 }
 .footer hr {
   width: 83%;
@@ -418,6 +433,148 @@ body {
 }
 
 /**************************************** END LOGIN PAGE ******************************************************/
+/**************************************** START DESIGNS PAGE ******************************************************/
+.title-page {
+  margin-bottom: 15px;
+  background: #f3f3f3;
+}
+.title-page .container {
+  display: flex;
+}
+.title-page .ban {
+  padding-bottom: 20px;
+  line-height: 0;
+}
+.title-page h1 {
+  color: var(--main-color);
+}
+.title-page span {
+  color: #343a40;
+}
+
+.navigator .breadcrumb {
+  background: #343a40;
+  margin-bottom: 0;
+  padding: 20px 5px 20px 0;
+}
+.navigator .breadcrumb .container {
+  display: flex;
+}
+.navigator .breadcrumb .breadcrumb-item {
+  cursor: pointer;
+}
+.navigator .breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  color: var(--main-background);
+}
+.navigator .breadcrumb .breadcrumb-item a:hover {
+  color: var(--main-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+.navigator .breadcrumb .breadcrumb-item.active {
+  display: flex;
+  color: var(--main-color);
+}
+.navigator .breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+  padding-left: 10px;
+}
+
+.designs {
+  margin: 20px 0;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+.designs .card {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.designs .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.designs .price {
+  font-weight: 800;
+  color: var(--main-color);
+}
+.designs .discount {
+  text-decoration: line-through;
+  color: red;
+  margin-left: 10px;
+}
+.designs .add-to-card {
+  background-color: var(--main-color);
+  border-color: #ccc;
+  display: block;
+  text-decoration: none;
+  color: var(--main-background);
+  border: 1px solid var(--main-background);
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.designs .add-to-card:hover {
+  background-color: #343a40;
+  color: var(--main-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.designs .fa-cart-shopping {
+  margin-right: 10px;
+}
+
+.pagination {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.pagination .page-item.active .page-link {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+.pagination .page-item.active .page-item .page-link {
+  color: #343a40 !important;
+}
+
+.cat-menu {
+  padding-right: 20px;
+  margin: 20px 0;
+}
+.cat-menu h4 {
+  margin-bottom: 20px;
+  color: var(--main-color);
+}
+.cat-menu ul {
+  padding: 0;
+}
+.cat-menu ul li {
+  margin: 15px 0;
+}
+.cat-menu ul li a {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 12px;
+}
+.cat-menu ul li a:hover {
+  color: var(--main-color);
+  padding-right: 5px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+/**************************************** END DESIGNS PAGE ******************************************************/
 /**************************************** START MEDIA QUERY ******************************************************/
 @media (max-width: 767px) {
   .main-header ul {
@@ -452,10 +609,10 @@ body {
     margin: 0 auto !important;
   }
   .footer {
-    text-align: center;
+    text-align: right;
   }
   .footer h5 {
-    margin: 10px 0;
+    margin: 15px 0;
   }
   .footer ul li {
     margin-left: 43px;
