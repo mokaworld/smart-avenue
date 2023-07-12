@@ -530,19 +530,35 @@ body {
   margin-right: 10px;
 }
 
-.pagination {
+.pagination-pages {
+  padding: 20px 0;
+}
+.pagination-pages ul {
+  display: flex;
   flex-direction: row-reverse;
+  align-content: center;
   justify-content: center;
   align-items: center;
+}
+.pagination-pages ul li {
+  background: var(--main-background);
+  color: var(--main-color);
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-left: 1px;
+}
+.pagination-pages ul li:hover {
+  background: #343a40;
+  color: var(--main-background);
   cursor: pointer;
-  margin: 20px 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
-.pagination .page-item.active .page-link {
-  background-color: var(--main-color);
-  border-color: var(--main-color);
-}
-.pagination .page-item.active .page-item .page-link {
-  color: #343a40 !important;
+.pagination-pages ul li a {
+  list-style: none;
 }
 
 .cat-menu {
