@@ -137,6 +137,11 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  box-shadow: 0 0 10px var(--main-color);
+  cursor: pointer;
+}
+.scroll-top:hover {
+  background: var(--main-background);
 }
 .scroll-top a {
   text-decoration: none;
@@ -396,24 +401,33 @@ body {
 /**************************************** END OFFERS  ******************************************************/
 /**************************************** START FOOTER  ******************************************************/
 .footer {
-  background-color: var(--main-color);
+  background-color: #343a40;
   color: var(--main-background);
   line-height: 30px;
   font-size: 14px;
 }
 .footer h5 {
   margin-bottom: 30px;
-  color: #343a40;
+  color: var(--main-color);
 }
 .footer ul {
   padding-right: 0;
+}
+.footer ul li:hover {
+  color: var(--main-color);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .footer ul li a {
   text-decoration: none;
   color: var(--main-background);
 }
 .footer ul li a:hover {
-  color: #343a40;
+  color: var(--main-color);
   cursor: pointer;
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -422,7 +436,7 @@ body {
   -o-transition: 0.5s;
 }
 .footer address:hover, .footer p:hover {
-  color: #343a40;
+  color: var(--main-color);
   cursor: pointer;
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -431,7 +445,7 @@ body {
   -o-transition: 0.5s;
 }
 .footer .copyright span span {
-  color: #343a40;
+  color: var(--main-color);
   margin-right: 5px;
   font-weight: 900;
 }
