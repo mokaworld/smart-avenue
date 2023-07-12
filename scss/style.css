@@ -640,5 +640,8 @@ body {
   .login {
     width: 20rem !important;
   }
+  .pagination-pages {
+    padding: 20px 0 20px 60px;
+  }
 }
 /**************************************** END MEDIA QUERY ******************************************************//*# sourceMappingURL=style.css.map */
