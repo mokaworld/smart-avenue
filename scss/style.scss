@@ -21,8 +21,8 @@
     position: absolute;
     top: 200px;
     right: -40px;
-    background: var(--main-color);
-    color: var(--main-background);
+    background: #343a40;
+    color: var(--main-color);;
     width: 30px;
     height: 25px;
     line-height: 30px;
@@ -35,8 +35,13 @@
     -ms-border-radius: 0 10px 10px 0;
     -o-border-radius: 0 10px 10px 0;
 &:hover{
-  background:#343a40;
-  color: var(--main-color);
+  background: var(--main-color);
+  color: var(--main-background);
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
   transition: .5s;
   -webkit-transition: .5s;
   -moz-transition: .5s;
@@ -80,7 +85,75 @@ option{
 }
 
 }
+.social-contact{
+  position: fixed;
+  top: 40%;
+  left: 0;
+  background:#343a40;
+  z-index: 9999;
+  border-radius: 0 10px 10px 0;
+  ul{
+    width: 100%;
+    padding: 0;
+    &:hover{
+      padding: 0 0 0 10px;
+      transition: .5s;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+}
 
+    li{
+      transform: rotate(-20deg);
+      -webkit-transform: rotate(-20deg);
+      -moz-transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg);
+      -o-transform: rotate(-20deg);
+      &:hover{
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+      a{
+          color: var(--main-color);
+          font-size: 35px;
+          padding: 10px 5px;
+          &:hover{
+            color: aliceblue;
+          
+          }
+         
+      }
+     
+    }
+  }
+}
+.scroll-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 5px 10px;
+    background: #343a40;
+    z-index: 9999;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    a{ 
+   
+        text-decoration: none;
+        color: var(--main-color);
+    }
+}
 /*END  MAIN RULES */
 
 body {
