@@ -47,6 +47,9 @@ $('.close').click( function(){
   $('.menu').fadeOut();
 });
 
+
+
+
 $('.fixed-menu .gear').click(function(){
   $(this).parent('.fixed-menu').toggleClass('visible');
   if($(this).parent('.fixed-menu').hasClass('visible') ){
@@ -60,3 +63,16 @@ $('.fixed-menu .gear').click(function(){
   }
   
 });
+
+
+//SEARCH FUNCTIONS 
+
+$('.icons .open-search-box').on('click' , function(){
+  $('.search-popup').fadeIn();
+});
+
+$('.search-popup .close-serch-box').on('click', function(){
+  $('.search-popup').fadeOut();
+});
+
+

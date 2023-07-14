@@ -1,6 +1,6 @@
 /*  ROOT */
 :root {
-  --main-color: #C1B48A;
+  --main-color: #c1b48a;
   --main-background: #ffffff;
   --main-border-rads: 3px;
 }
@@ -8,6 +8,69 @@
 /* START MAIN RULES */
 * {
   box-sizing: border-box;
+}
+
+.search-popup {
+  display: none;
+}
+.search-popup .overlay-search {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999999;
+  background-color: rgba(0, 0, 0, 0.86);
+}
+.search-popup .overlay-search .close-serch-box .fa-xmark {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--main-background);
+}
+.search-popup .overlay-search .close-serch-box .fa-xmark:hover {
+  color: var(--main-color);
+}
+.search-popup .overlay-search .search {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.search-popup .overlay-search .search .search-box {
+  display: flex;
+}
+.search-popup .overlay-search .search .search-box input {
+  padding: 15px;
+  width: 50%;
+  background-color: transparent;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  color: var(--main-color);
+}
+.search-popup .overlay-search .search .search-box input::-moz-placeholder {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.search-popup .overlay-search .search .search-box input::placeholder {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.search-popup .overlay-search .search .search-box .inner-serach-icon {
+  position: absolute;
+  top: 20px;
+  left: 26%;
+  color: #fff;
+  cursor: pointer;
 }
 
 .fixed-menu {
@@ -435,7 +498,8 @@ body {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
-.footer address:hover, .footer p:hover {
+.footer address:hover,
+.footer p:hover {
   color: var(--main-color);
   cursor: pointer;
   transition: 0.5s;
