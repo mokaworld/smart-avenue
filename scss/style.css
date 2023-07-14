@@ -752,6 +752,10 @@ body {
 @media (max-width: 767px) {
   .search-box input[type=search] {
     width: 100%;
+    margin: 10px;
+  }
+  .search-box .inner-serach-icon {
+    left: 50px;
   }
   .fixed-menu .fa-gear {
     top: 34%;
