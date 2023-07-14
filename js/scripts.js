@@ -67,12 +67,5 @@ $('.fixed-menu .gear').click(function(){
 
 //SEARCH FUNCTIONS 
 
-$('upper-slider .icons .open-search-box').on('click' , function(){
-  $('.search-popup').fadeIn();
-});
-
-$('.search-popup .close-serch-box').on('click', function(){
-  $('.search-popup').fadeOut();
-});
 
 

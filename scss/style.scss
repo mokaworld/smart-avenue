@@ -8,70 +8,26 @@
 * {
   box-sizing: border-box;
 }
-.search-popup{
-  display: none;
-  .overlay-search{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 9999999;
-    background-color: rgba(0, 0, 0, 0.86);
-     .close-serch-box{
-        .fa-xmark{
-          position: absolute;
-          top:30px;
-          right:30px;
-          font-size: 20px;
-          cursor: pointer;
-          color: var(--main-background);
-          &:hover{
-            color: var(--main-color);
-          }
-        }
+.search-box{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 ;
+    input[type="search"]{
+      width: 50%;
+      padding: 15px;
+      &:focus{
+        border: 1px solid var(--main-color);
+        border-color: var(--main-color);
       }
-    .search{
-      position: relative;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      -o-transform: translate(-50%, -50%);
-     
-      .search-box{
-        display: flex;
-        input{
-          padding: 15px ;
-          width: 50%;
-          background-color: transparent; 
-          margin: auto;
-          border: 1px solid #ccc;
-         border-top-color: transparent;
-         border-left-color: transparent;
-         border-right-color: transparent;
-         color: var(--main-color);
-         &::placeholder{
-          color: var(--main-color);
-          cursor: pointer;
-         }
-        }
-        .inner-serach-icon{
-         
-          position: absolute;
-          top: 20px;
-          left: 26%;
-          color: #fff;
-          cursor: pointer;
-    
-         }
-    
-       } 
     }
+    .inner-serach-icon{
+      position: relative;
+      left: 35px;
+     
   }
-}
+    }
+
 .fixed-menu {
   position: fixed;
   left: -250px;
@@ -845,6 +801,13 @@ body {
 /**************************************** START MEDIA QUERY ******************************************************/
 
 @media (max-width: 767px) {
+  .search-box input[type="search"]{
+    width: 100%;
+  }
+  .fixed-menu .fa-gear{
+    top: 34%;
+  }
+  
   .main-header ul {
     position: absolute;
     left: 50%;
@@ -869,7 +832,7 @@ body {
     margin-top: 0;
     box-shadow: none;
   }
-
+ 
   .offers .slick-arrow {
     display: none !important;
   }
