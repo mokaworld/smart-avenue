@@ -64,20 +64,6 @@ $('.fixed-menu .gear').click(function(){
   
 });
 
-$(document).ready(function() {
-  $(window).load(function animation() {
-
-      $(".loading-overlay img").fadeIn(500, function() {
-          $(this).fadeOut(1000, function() {
-              animation();
-          });
-      });
-      $(".loading-overlay img").fadeOut(1000, function() {
-          $(".loading-overlay ").fadeOut(2000);
-      });
-
-
-  });
 
 
 
