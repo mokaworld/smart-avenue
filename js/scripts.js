@@ -1,3 +1,7 @@
+//LOADING 
+$(window).load(function() {
+  $('.loading').fadeOut(4000);
+});
 
 //INIT SLICK SLIDER  
 $('.slick-slider').slick({
@@ -65,5 +69,19 @@ $('.fixed-menu .gear').click(function(){
 });
 
 
+
+//SCROLL TO TOP
+var scrollTop = $('.scroll-top');
+
+$(document).on('scroll' , function(){
+  if($(window).scrollTop()  >= 1000){
+    if( scrollTop.is(':hidden')){
+     scrollTop.fadeIn(400);
+  
+  }
+}else{
+  scrollTop.fadeOut(400);
+ }
+});
 
 

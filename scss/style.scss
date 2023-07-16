@@ -8,6 +8,37 @@
 * {
   box-sizing: border-box;
 }
+body {
+  direction: rtl;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Kablammo", cursive;
+  font-family: "Lilita One", cursive;
+  font-family: "Tajawal", sans-serif;
+  font-family: "Cairo", sans-serif;
+
+}
+body::-webkit-scrollbar{
+    width: 12px;
+    background-color: #343a40;
+    cursor: pointer;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+  border-radius: var(--main-border-rads);
+  -webkit-border-radius: var(--main-border-rads);
+  -moz-border-radius: var(--main-border-rads);
+  -ms-border-radius: var(--main-border-rads);
+  -o-border-radius: var(--main-border-rads);
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background-color: var(--main-background);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
 .search-box{
   display: flex;
     align-items: center;
@@ -27,7 +58,41 @@
      
   }
     }
+.loading{
+  background: var(--main-color);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  overflow: auto;
+  img{
+    max-width: 50%;
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    animation: fadetoggle infinite linear 3s ;
+    -webkit-animation: fadetoggle infinite linear 3s ;
+        @keyframes fadetoggle{ 
 
+      0%{
+        opacity:.1;
+      }
+      50%{
+        opacity:.5;
+      }
+      100%{
+        opacity:1;
+      }
+    }
+
+}
+}
 .fixed-menu {
   position: fixed;
   left: -250px;
@@ -165,6 +230,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   box-shadow: 0 0 10px var(--main-color);
+  display: none;
   cursor: pointer;
   &:hover {
     background: var(--main-background);
@@ -176,14 +242,7 @@
 }
 /*END  MAIN RULES */
 
-body {
-  direction: rtl;
-  font-family: "El Messiri", sans-serif;
-  font-family: "Kablammo", cursive;
-  font-family: "Lilita One", cursive;
-  font-family: "Tajawal", sans-serif;
-  font-family: "Cairo", sans-serif;
-}
+
 /**************************************** START HEADER  ******************************************************/
 
 .main-header {
@@ -686,7 +745,20 @@ body {
     }
   }
 }
-
+.cats{
+  h3{
+    color: var(--main-color);
+  }
+  img{
+    max-width: 100%;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+}
 .designs {
   margin: 20px 0;
   border-left: 1px solid #ccc;
