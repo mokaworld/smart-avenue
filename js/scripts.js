@@ -1,6 +1,6 @@
 //LOADING 
 $(window).load(function() {
-  $('.loading').fadeOut(4000);
+  $('.loading').fadeOut(3000);
 });
 
 //INIT SLICK SLIDER  
