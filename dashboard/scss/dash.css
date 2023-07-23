@@ -101,4 +101,17 @@ body {
 .navbar .container .log-menu .uk-dropdown ul li:hover {
   background: #F4F7F9;
   padding-right: 10px;
+}
+
+.content {
+  background-color: #F5F7FA;
+}
+.content .stats {
+  display: flex;
+}
+.content .stats .uk-card {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }/*# sourceMappingURL=dash.css.map */
