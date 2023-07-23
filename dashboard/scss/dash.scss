@@ -112,6 +112,9 @@ body{
 
 .content{
     background-color: #F5F7FA;
+    .dash-title{
+        padding: 20px; 
+    }
     .stats{
         display: flex;
         .uk-card{

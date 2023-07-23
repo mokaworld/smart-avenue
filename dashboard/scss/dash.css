@@ -106,6 +106,9 @@ body {
 .content {
   background-color: #F5F7FA;
 }
+.content .dash-title {
+  padding: 20px;
+}
 .content .stats {
   display: flex;
 }
