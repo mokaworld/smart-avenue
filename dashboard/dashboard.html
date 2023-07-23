@@ -72,6 +72,12 @@
     <div class="links">
         <ul uk-accordion>
             <li class="uk-open">
+                <a class="uk-accordion-title" href="#"> القائمه الرئيسية</a>
+                <div class="uk-accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </li>
+            <li >
                 <a class="uk-accordion-title" href="#"> الاقسام</a>
                 <div class="uk-accordion-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -101,6 +107,30 @@
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                 </div>
             </li>
+            <li>
+                <a class="uk-accordion-title" href="#">المنتجات </a>
+                <div class="uk-accordion-content">
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">الطلبات </a>
+                <div class="uk-accordion-content">
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">التواصل الاجتماعي  </a>
+                <div class="uk-accordion-content">
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#"> المراسلات  </a>
+                <div class="uk-accordion-content">
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                </div>
+            </li>
         </ul>
     </div>
 
@@ -123,15 +153,15 @@
         </div>
         <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
             <h3 class="uk-card-title">الطلبات المعلقه</h3>
-           <p>charts</p>
+          <div id="chart2"></div>
         </div>
         <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
             <h3 class="uk-card-title"> الطلبات المنتهيه</h3>
-           <p>charts</p>
+          <div id="chart3"></div>
         </div>
           <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
             <h3 class="uk-card-title">اجمالي الارباح </h3>
-           <p>charts</p>
+          <div id="chart4"></div>
         </div>
     </div>
   
@@ -145,24 +175,7 @@
 <script src="js/all.min.js"></script>
 <script src="js/fontawesome.min.js"></script>
 <script src="js/apexcharts.min.js"></script>
-<script>
-        var options = {
-    chart: {
-        type: 'pie'
-    },
-    series: [{
-        name: 'sales',
-        data: [30,40,35,50,49,60,70,91,125]
-    }],
-    xaxis: {
-        categories: [1991,1992,1993,1994,1995,1996,1997, 1998,1999]
-    }
-    }
 
-    var chart = new ApexCharts(document.querySelector("#chart"), options);
-
-    chart.render();
-</script>
 <script src="js/plugins.js"></script>
 </body>
 </html>
