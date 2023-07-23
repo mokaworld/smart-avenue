@@ -6,11 +6,19 @@
 
 body {
   direction: rtl;
+  font-family: "Cairo", sans-serif;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Kablammo", cursive;
+  font-family: "Lilita One", cursive;
+  font-family: "Tajawal", sans-serif;
 }
 
 .navbar {
+  position: relative;
   padding: 20px 0;
   background-color: #fff;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
 }
 .navbar .container {
   display: flex;
@@ -20,10 +28,67 @@ body {
 }
 .navbar .container .nav-component {
   display: flex;
+  align-items: center;
+  align-content: center;
 }
-.navbar .container .nav-component .search-input {
+.navbar .container .nav-component input[type=search] {
   background-color: #F6F8FB;
+  height: calc(2.44375rem + 2px);
+  background: #f3f6fb;
+  box-shadow: none;
+  border: 0;
+  padding: 0.45rem 0.75rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.navbar .container .nav-component .fa-magnifying-glass {
+  position: absolute;
+  left: 81%;
+  top: 45%;
+}
+.navbar .container .nav-component .tools {
+  list-style: none;
+  display: flex;
+  padding-right: 20px;
+}
+.navbar .container .nav-component .tools .fa-message {
+  margin-left: 15px;
 }
 .navbar .container .log-menu {
   display: flex;
+  align-items: center;
+}
+.navbar .container .log-menu .drop-setting {
+  margin-left: 15px;
+}
+.navbar .container .log-menu .drop-setting img {
+  max-width: 100%;
+  margin: 10px;
+}
+.navbar .container .log-menu .uk-dropdown {
+  width: 100%;
+  padding: 0 10px;
+  margin: 0;
+}
+.navbar .container .log-menu .uk-dropdown ul {
+  list-style-type: none;
+  padding: 0;
+}
+.navbar .container .log-menu .uk-dropdown ul li {
+  margin: 10px 0;
+  padding: 15px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.navbar .container .log-menu .uk-dropdown ul li:hover {
+  background: #F4F7F9;
+  padding-right: 10px;
 }/*# sourceMappingURL=dash.css.map */

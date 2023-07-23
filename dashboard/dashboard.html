@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;800&family=El+Messiri:wght@400;500;600;700&family=Kablammo&family=Lilita+One&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/uikit-rtl.min.css">
     <link rel="stylesheet" href="scss/dash.css">
@@ -17,8 +20,11 @@
                 <input class="serch-input" type="search" placeholder="بحث">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </form>
-            <i class="fa-solid fa-message"></i>
-            <i class="fa-solid fa-bell"></i>
+            <ul class="tools">
+                <li><i class="fa-solid fa-message"></i></li>
+                <li><i class="fa-solid fa-bell"></i></li>
+            </ul>
+            
 
         </div>
        
@@ -26,9 +32,14 @@
             <div class="drop-setting">
                 <div class="uk-inline">
                     <button class="uk-button uk-button-default" type="button">
-                        ahmed saber  <img src="" alt="">
+                        ahmed saber  <img src="images/nav/boy.png" alt="">
                     </button>
-                    <div uk-dropdown>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <div uk-dropdown>
+                        <ul>
+                            <li>الاعدادات</li>
+                            <li>تسجيل الخروج</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <i class="fa-solid fa-bars"></i>
