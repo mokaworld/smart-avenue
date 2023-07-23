@@ -103,6 +103,28 @@ body {
   padding-right: 10px;
 }
 
+.menu-bar {
+  background-color: #293042;
+  position: fixed;
+  z-index: 9999;
+  color: #ccc;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  padding: 10px;
+}
+.menu-bar h4 {
+  color: #fff;
+  padding: 20px 10px 20px 0;
+}
+.menu-bar .links {
+  padding: 20px 10px 20px 0;
+}
+.menu-bar .links .uk-accordion-title {
+  color: #fff;
+}
+
 .content {
   background-color: #F5F7FA;
 }
