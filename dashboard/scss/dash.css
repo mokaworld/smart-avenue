@@ -1,3 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   direction: rtl;
+}
+
+.navbar {
+  padding: 20px 0;
+  background-color: #fff;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.navbar .container .nav-component {
+  display: flex;
+}
+.navbar .container .nav-component .search-input {
+  background-color: #F6F8FB;
+}
+.navbar .container .log-menu {
+  display: flex;
 }/*# sourceMappingURL=dash.css.map */
