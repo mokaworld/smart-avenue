@@ -11,6 +11,28 @@ body{
     font-family: 'Lilita One', cursive;
     font-family: 'Tajawal', sans-serif;
 }
+.menu-bar::-webkit-scrollbar{
+    width: 10px;
+    background-color: #343a40;
+   
+    cursor: pointer;
+}
+.menu-bar::-webkit-scrollbar-thumb{
+ 
+  background-color: #fff;
+ 
+}
+
+
+a{
+    text-decoration: none!important;
+    color: #ddd;
+    &:hover{
+        color: #fff;  
+        
+    }
+}
+
 
 .navbar{
     position: relative;
@@ -131,10 +153,18 @@ body{
         padding: 20px 10px 20px 0;
         .uk-accordion-title{
             color: #fff;
-            
+           
+           
+        } 
+        .list-unstyled{
+            li{
+                padding: 10px 0;
+            }
         }
+        }
+        
     }
-}
+  
 .content{
     background-color: #F5F7FA;
     .dash-title{

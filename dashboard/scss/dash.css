@@ -13,6 +13,24 @@ body {
   font-family: "Tajawal", sans-serif;
 }
 
+.menu-bar::-webkit-scrollbar {
+  width: 10px;
+  background-color: #343a40;
+  cursor: pointer;
+}
+
+.menu-bar::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none !important;
+  color: #ddd;
+}
+a:hover {
+  color: #fff;
+}
+
 .navbar {
   position: relative;
   padding: 20px 0;
@@ -124,6 +142,9 @@ body {
 }
 .menu-bar .links .uk-accordion-title {
   color: #fff;
+}
+.menu-bar .links .list-unstyled li {
+  padding: 10px 0;
 }
 
 .content {
