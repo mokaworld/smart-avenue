@@ -23,6 +23,16 @@ body {
   background-color: #fff;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #343a40;
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
 a {
   text-decoration: none !important;
   color: #ddd;
@@ -74,13 +84,25 @@ a:hover {
   cursor: pointer;
 }
 .navbar .container .nav-component .tools .uk-button {
-  border-radius: 50% !important;
-  -webkit-border-radius: 50% !important;
-  -moz-border-radius: 50% !important;
-  -ms-border-radius: 50% !important;
-  -o-border-radius: 50% !important;
+  border-radius: 10% !important;
+  -webkit-border-radius: 10% !important;
+  -moz-border-radius: 10% !important;
+  -ms-border-radius: 10% !important;
+  -o-border-radius: 10% !important;
   padding: 0px 14px;
   margin-left: 15px;
+  background-color: #293042;
+  border-color: #ccc;
+  color: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.navbar .container .nav-component .tools .uk-button:hover {
+  background-color: #fff;
+  color: #293042;
 }
 .navbar .container .nav-component .uk-dropdown {
   left: -200px !important;
@@ -91,6 +113,9 @@ a:hover {
 }
 .navbar .container .log-menu .drop-setting {
   margin-left: 15px;
+}
+.navbar .container .log-menu .drop-setting a {
+  color: #343a40;
 }
 .navbar .container .log-menu .drop-setting img {
   max-width: 100%;
@@ -121,12 +146,32 @@ a:hover {
   padding-right: 10px;
 }
 
+.fa-bars {
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.close-menu {
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.close-menu .fa-xmark {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 5px 7px;
+}
+
 .menu-bar {
   background-color: #293042;
   position: fixed;
   z-index: 9999;
   color: #ccc;
-  left: 0;
+  right: -300px;
   top: 0;
   width: 300px;
   height: 100%;
@@ -135,12 +180,22 @@ a:hover {
 }
 .menu-bar h4 {
   color: #fff;
-  padding: 20px 10px 20px 0;
+  padding: 0px 10px 10px 0;
+  margin: 15px 0;
 }
 .menu-bar .links {
   padding: 20px 10px 20px 0;
 }
 .menu-bar .links .uk-accordion-title {
+  color: #ddd;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.menu-bar .links .uk-accordion-title:hover {
+  padding-right: 10px;
   color: #fff;
 }
 .menu-bar .links .list-unstyled li {
@@ -161,4 +216,45 @@ a:hover {
   margin-right: 20px;
   margin-bottom: 10px;
   margin-left: 20px;
+  cursor: pointer;
+}
+.content .stats .uk-card:hover, .content .stats .uk-card:hover h3 {
+  background-color: #293042;
+  color: #fff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.latest-order {
+  padding: 20px 0;
+}
+.latest-order table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+.latest-order table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.latest-order table tr:hover {
+  background: #293042;
+  color: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.latest-order table th {
+  background: #293042;
+  color: #fff;
+  padding: 10px 5px;
+}
+.latest-order table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  cursor: pointer;
 }/*# sourceMappingURL=dash.css.map */
