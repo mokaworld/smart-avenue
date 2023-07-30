@@ -104,8 +104,49 @@ a:hover {
   background-color: #fff;
   color: #293042;
 }
+.navbar .container .nav-component .tools .uk-inline .noti-desc {
+  border-bottom: 1px solid #ccc;
+}
+.navbar .container .nav-component .tools .uk-inline .noti-desc:hover {
+  background-color: #f3f6fb;
+}
+.navbar .container .nav-component .tools .uk-inline .noti-desc .desc {
+  display: flex;
+}
+.navbar .container .nav-component .tools .uk-inline .noti-desc .desc img {
+  position: relative;
+  top: 50%;
+  transform: translateY(40%);
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+.navbar .container .nav-component .tools .uk-inline .noti-desc .desc p {
+  display: block;
+  font-size: 14px;
+}
+.navbar .container .nav-component .tools .uk-inline .noti-desc .desc p span {
+  display: block;
+  margin-top: 2px;
+}
+.navbar .container .nav-component .tools .uk-inline .show-all-noti {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.navbar .container .nav-component .tools .uk-inline .show-all-noti:hover {
+  background-color: #f3f6fb;
+}
+.navbar .container .nav-component .tools .uk-inline .show-all-noti p {
+  position: relative;
+  top: 50%;
+  transform: translateY(10px);
+}
 .navbar .container .nav-component .uk-dropdown {
-  left: -200px !important;
+  left: -342px !important;
+  top: 50px !important;
+  min-width: 400px !important;
+  padding: 5px 3px !important;
 }
 .navbar .container .log-menu {
   display: flex;
@@ -257,4 +298,132 @@ a:hover {
   border: 1px solid #ccc;
   padding: 5px;
   cursor: pointer;
+}
+
+.content-home-page {
+  margin: 20px 0;
+}
+.content-home-page h2 {
+  margin: 20px 0;
+}
+.content-home-page .upper-section {
+  padding: 20px 30px;
+  margin: 30px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.content-home-page .upper-section .menu ul {
+  display: inline-flex;
+  padding-right: 0 !important;
+}
+.content-home-page .upper-section .menu ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+.content-home-page .upper-section .logo ul {
+  display: inline-flex;
+  padding-right: 0 !important;
+}
+.content-home-page .upper-section .logo ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.slider {
+  padding: 20px 30px;
+  margin: 30px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.slider ul {
+  display: inline-flex;
+  padding-right: 0 !important;
+}
+.slider ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.services {
+  padding: 20px 30px;
+  margin: 30px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.services ul {
+  display: inline-flex;
+  padding-right: 0 !important;
+}
+.services ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.offer {
+  padding: 20px 30px;
+  margin: 30px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.offer ul {
+  display: inline-flex;
+  padding-right: 0 !important;
+}
+.offer ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.footer {
+  padding: 20px 30px;
+  margin: 30px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.footer ul {
+  display: inline-flex;
+  padding-right: 0 !important;
+}
+.footer ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.social-media {
+  padding: 20px 30px;
+  margin: 30px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.social-media ul {
+  display: inline-flex;
+  padding-right: 0 !important;
+}
+.social-media ul li {
+  list-style-type: none;
+  margin-left: 10px;
 }/*# sourceMappingURL=dash.css.map */
