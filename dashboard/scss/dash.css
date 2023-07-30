@@ -143,6 +143,7 @@ a:hover {
   transform: translateY(10px);
 }
 .navbar .container .nav-component .uk-dropdown {
+  overflow: auto;
   left: -342px !important;
   top: 50px !important;
   min-width: 400px !important;
