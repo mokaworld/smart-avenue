@@ -156,10 +156,9 @@
                             <li>
                                <a target="_blank" href="../index.html">زياره الموقع</a>
                             </li>
-                            <li>
-                                <a href="profile-setting.html">الاعدادات </a>
-                            </li>
-                         
+                            <li > 
+                                <a href="profile-setting.html">الاعدادات</a>
+                             </li>
                             <li>تسجيل الخروج</li>
                         </ul>
                     </div>
@@ -244,181 +243,65 @@
         </ul>
     </div>
 
+
 </div>
 
 
-<div class="content ">
-    <div class="dash-title uk-container">
-        <h3>
-            لوحه تحكم  | Smart Avenue
-        </h3>
-    </div>
-    <div class="stats uk-container">
-        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
-            <h3 class="uk-card-title">الطلبات </h3>
-            <div class="reasult" > 10 الف</div>
+<div class="content-home-page ">
+    <div class="uk-container">
+        <nav aria-label="Breadcrumb" class="breat">
+            <ul class="uk-breadcrumb">
+                <li><a href="dashboard.html">الرئيسية</a></li>
+                <li><a href="profile-setting.html"> الاعدادات</a></li>
+            </ul>
+        </nav>
+        <div class="profile-setting">
+            <div class="data">
+                <form>
+                    <fieldset class="uk-fieldset">
+                
+                        <legend class="uk-legend"> اعدادت الحساب </legend>
+
+                        <div class="js-upload uk-placeholder uk-text-center">
+                            <span uk-icon="icon: cloud-upload"></span>
+                            <span class="uk-text-middle">تغيير الصوره الشخصيه</span>
+                            <div uk-form-custom>
+                                <input type="file" multiple>
+                                <span class="uk-link">اختار صوره واحده</span>
+                            </div>
+                        </div>
+                        
+                        <progress id="js-progressbar" class="uk-progress" value="0" max="100" hidden></progress>
+                    
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="الاسم الاول" aria-label="Input">
+                        </div>
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="الاسم الثاني" aria-label="Input">
+                        </div>
+
+                
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="كلمه المرور الحاليه" aria-label="Input">
+                        </div>
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="كلمه المرور الجديده" aria-label="Input">
+                        </div>
+                
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="تاكيد كلمه المرور " aria-label="Input">
+                        </div>
+
+                    </fieldset>
+                    <p class="uk-text-left">
+                        <button class="uk-button uk-button-default uk-modal-close" type="button">حفظ</button>
+                        <button class="uk-button uk-button-primary" type="button">الغاء</button>
+                    </p>
+                </form>
+            </div>
         </div>
-        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
-            <h3 class="uk-card-title">الطلبات المعلقه</h3>
-         <div class="reasult" > 16 الف</div>
-        </div>
-        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
-            <h3 class="uk-card-title"> الطلبات المنتهيه</h3>
-         <div class="reasult" > 29 الف</div>
-        </div>
-          <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
-            <h3 class="uk-card-title">اجمالي الارباح </h3>
-         <div class="reasult" >  77 الف </div>
-        </div>
-    </div>
-  <div class="latest-order uk-container ">
-    <h3>احدث الطلبات </h3>
-    <table>
-        <tr>
         
-            <th> رقم الطلب </th>
-            <th> اسم العميل</th>
-            <th>الايميل</th>
-            <th> نوع الاشتراك</th>
-            <th> نوع الخدمه</th>
-            <th> المبلغ المدفوع </th>
-            <th>تاريخ الطلب</th>
-            <th> حالة الطلب</th>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>سنوي</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>ريع سنوي</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td> 
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>نصف سنوي</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-        <tr>
-            <td>#12345</td>
-            <td> احمد عبد اللطيف</td>
-            <td>mokaworld2023@gmail.com</td>
-            <td>شهري</td>
-            <td> اداره السوشيال ميديا</td>
-            <td>20$</td>
-            <td>25-7-2023 </td>
-            <td> جاري المعالجه</td>
-        </tr>
-  
-    </table>
-  </div>
-   
+    
 </div>
 
 
@@ -431,5 +314,67 @@
 <script src="js/apexcharts.min.js"></script>
 
 <script src="js/plugins.js"></script>
+    
+<script>
+                        
+    var bar = document.getElementById('js-progressbar');
+
+    UIkit.upload('.js-upload', {
+
+        url: '',
+        multiple: true,
+
+        beforeSend: function () {
+            console.log('beforeSend', arguments);
+        },
+        beforeAll: function () {
+            console.log('beforeAll', arguments);
+        },
+        load: function () {
+            console.log('load', arguments);
+        },
+        error: function () {
+            console.log('error', arguments);
+        },
+        complete: function () {
+            console.log('complete', arguments);
+        },
+
+        loadStart: function (e) {
+            console.log('loadStart', arguments);
+
+            bar.removeAttribute('hidden');
+            bar.max = e.total;
+            bar.value = e.loaded;
+        },
+
+        progress: function (e) {
+            console.log('progress', arguments);
+
+            bar.max = e.total;
+            bar.value = e.loaded;
+        },
+
+        loadEnd: function (e) {
+            console.log('loadEnd', arguments);
+
+            bar.max = e.total;
+            bar.value = e.loaded;
+        },
+
+        completeAll: function () {
+            console.log('completeAll', arguments);
+
+            setTimeout(function () {
+                bar.setAttribute('hidden', 'hidden');
+            }, 1000);
+
+            alert('Upload Completed');
+        }
+
+    });
+
+</script>
+
 </body>
 </html>
